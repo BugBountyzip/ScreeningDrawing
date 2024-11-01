@@ -1,17 +1,18 @@
 {
-  "id": "header-hider",
-  "name": "Header Hider",
+  "id": "cursor-pen",
+  "name": "Screening Drawing",
   "version": "1.0.0",
-  "description": "A plugin that allows users to hide specific HTTP headers from Caido's history view.",
+  "description": "A plugin that turns the cursor into a drawing pen",
   "author": {
-    "name": "Tur24Tur BugBountyZip",
-    "email": "no-reply@NoBugEscapes.com"
+    "name": "Tur24Tur / BugBountyZip",
+    "email": "no-reply@NoBugEscapes.com",
+    "url": "https://github.com/BugBountyzip"
   },
   "plugins": [
     {
       "kind": "frontend",
-      "id": "header-hider-frontend",
-      "name": "Header Hider Frontend",
+      "id": "cursor-pen-frontend",
+      "name": "Cursor Pen Frontend",
       "entrypoint": "frontend/script.js",
       "style": "frontend/style.css"
     }
